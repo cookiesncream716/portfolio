@@ -1,0 +1,81 @@
+body{
+	/*font-family: Futura;*/
+	font-family: Arial;
+}
+/*.container {
+
+}*/
+.navbar {
+	/*background-color: #942b42;*/
+	/*background-color: #523a76;*/
+	background-color: #2e2e66;
+	height: 100px;
+}
+#top_jumbo {
+	background: #5b99ff;
+	color: white;
+	text-align: center;
+	height: 725px;
+	padding-top: 200px;
+}
+#top_jumbo h1 {
+	font-size: 100px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+hr.star-primary {
+    /*margin: 25px auto 30px;*/
+    /*padding: 0;*/
+    max-width: 250px;
+    /*border: 0;*/
+    border-top: solid 5px;
+    text-align: center;
+}
+#portfolio {
+	height: 1200px;
+	padding-top: 125px;
+	/*font-size: 3em;*/
+	/*font-weight: bold;*/
+}
+
+.project {
+	padding-top: 40px;
+	height: 350px;
+	text-align: center;
+}
+#project1 {
+	background-color: #ff7a4b;
+}
+#project2 {
+	background-color: #6744e8;
+}
+#project3 {
+	background-color: #e157ff;
+}
+#project4 {
+	background-color: #5b99ff;
+}
+#project5 {
+	background-color: #e84467;
+}
+#project6 {
+	background-color: #17b400;
+}
+#cake_icon {
+	width: 256px;
+	height: 256px;
+}
+#about {
+	background: #5b99ff;
+	color: white;
+	text-align: center;
+	height: 500px;
+	padding-top: 100px;
+}
