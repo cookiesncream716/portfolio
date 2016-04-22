@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "dependencies": {
+    "angular-scroll": "^1.0.0",
     "body-parser": "latest",
     "express": "~4.2.0",
     "mongoose": "latest"

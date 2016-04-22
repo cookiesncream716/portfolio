@@ -1,3 +1,3 @@
-portfolio.controller('dashboardController', function(){
-	
+portfolio.controller('dashboardController', function($document){
+
 })

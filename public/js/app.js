@@ -1,6 +1,7 @@
 var portfolio = angular.module('portfolio', [
 	'ngRoute',
-	'ui.bootstrap'
+	'ui.bootstrap',
+	'duScroll'
 ])
 
 portfolio.config(function($routeProvider){
