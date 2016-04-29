@@ -1,3 +1,16 @@
-<div ng-controller='project5Controller'>
-	<h1>project 5</h1>
+<div ng-controller='project5Controller' class='project_page'>
+	<h1>PairCoding</h1>
+	<hr class='star-primary'>
+	<div class='picture_carousel center-block'>
+		<uib-carousel active='active' interval='interval'>
+			<uib-slide ng-repeat='slide in slides'>
+				<img ng-source='{{slide.image}}'>
+			</uib-slide>
+		</uib-carousel>
+	</div>
+	<div class='project_description center-block'>
+		<h4>PairCoding was designed and created by a team of 2 devolopers and then deployed in just 2 days. This website allows users to find fellow programmers in the immediate area working with a particular language; users are then able to connect and code together.</h4>
+		<h4>TECHNOLOGIES</h4>
+		<h4>Ruby on Rails, PostgreSQL, Geoloction API, Bootstrap, HTML5, CSS3, AWS</h4>
+	</div>
 </div>

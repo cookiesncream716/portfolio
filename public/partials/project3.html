@@ -1,3 +1,16 @@
-<div ng-controller='project3Controller'>
-	<h1>project 3</h1>
+<div ng-controller='project3Controller' class='project_page'>
+	<h1>Make It Happen</h1>
+	<hr class='star-primary'>
+	<div class='picture_carousel center-block'>
+		<uib-carousel active='active' interval='interval'>
+			<uib-slide ng-repeat='slide in slides'>
+				<img ng-source='{{slide.image}}'>
+			</uib-slide>
+		</uib-carousel>
+	</div>
+	<div class='project_description center-block'>
+		<h4>Make It Happen was created by a team of 4 developers in just 5 days. It allows users to create and store individual bucket lists of goals to accomplish. Users can choose from a preset list or add new items to the list. Users can view pictures and see relevant live tweets to get inspired to complete an item.</h4>
+		<h4>TECHNOLOGIES</h4>
+		<h4>Python, MySQL, Tweepy API, Instagram API, Ajax, Jquery, Bootstrap, HTML5, CSS3</h4>
+	</div>
 </div>

@@ -1,3 +1,17 @@
-<div ng-controller='project1Controller'>
-	<h1>project 1</h1>
+<div ng-controller='project1Controller' class='project_page'>
+	<h1>Shoe Test</h1>
+		<hr class='star-primary'>
+	<div class='picture_carousel center-block'>
+		<uib-carousel active='active' interval='interval'>
+			<uib-slide ng-repeat='slide in slides'>
+				<img ng-source='{{slide.image}}'>
+			</uib-slide>
+		</uib-carousel>
+	</div>
+	<div class='project_description center-block'>
+		<h4>Shoe Test</h4>
+		<h4>TECHNOLOGIES</h4>
+		<h4>Ruby on Rails, PostgreSQL, Bootstrap, HTML5, CSS3</h4>
+	</div>
+
 </div>

@@ -1,3 +1,16 @@
-<div ng-controller='project6Controller'>
-	<h1>project 6</h1>
+<div ng-controller='project6Controller' class='project_page'>
+	<h1>My Recipe Box</h1>
+	<hr class='star-primary'>
+	<div class='picture_carousel center-block'>
+		<uib-carousel active='active' interval='interval'>
+			<uib-slide ng-repeat='slide in slides'>
+				<img ng-source='{{slide.image}}'>
+			</uib-slide>
+		</uib-carousel>
+	</div>
+	<div class='project_description center-block'>
+		<h4>My Recipe Box is a solely built app where users can store in one place all the recipes they have found and want to rembember from recipe websites. They can rate the recipe and add their own personal notes in case they made any adjustments to the recipe.</h4>
+		<h4>TECHNOLOGIES</h4>
+		<h4>Node, Express, Angular, MongoDB, Mongoose, JavaScript, Angular UI Bootstrap, HTML5, CSS3, AWS</h4>
+	</div>
 </div>
