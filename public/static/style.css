@@ -114,3 +114,8 @@ hr.star-primary {
 	width: 50%;
 	border: 3px solid blue;
 }
+.project_description ul li {
+	/*text-decoration: none;*/
+	display: inline-block;
+	margin-left: 10px;
+}
