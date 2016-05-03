@@ -3,8 +3,8 @@
 	<hr class='star-primary'>
 	<div class='picture_carousel center-block'>
 		<uib-carousel active='active' interval='interval'>
-			<uib-slide ng-repeat='slide in slides'>
-				<img ng-source='{{slide.image}}'>
+			<uib-slide ng-repeat='image in images'>
+				<img ng-src='../static/{{image}}'>
 			</uib-slide>
 		</uib-carousel>
 	</div>
@@ -18,4 +18,5 @@
 		</ul>
 	</div>
 
+	<img src='/static/hb.login.png'>
 </div>
