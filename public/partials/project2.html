@@ -4,7 +4,7 @@
 	<div class='picture_carousel center-block'>
 		<uib-carousel active='active' interval='interval'>
 			<uib-slide ng-repeat='image in images'>
-				<img ng-src='../static/{{image}}'>
+				<img ng-src='/static/{{image}}'>
 			</uib-slide>
 		</uib-carousel>
 	</div>
@@ -17,6 +17,10 @@
 			<li><a href='http://54.186.90.201:81/' target='_blank'>Deployed Site</a></li>
 		</ul>
 	</div>
-
-	<img src='/static/hb.login.png'>
+	<div ng-repeat = 'image in images'>
+		<p>{{image}}</p>
+	</div>
+	<div ng-repeat = 'image in images' class="pic">
+	<img src='/static/{{image}}'>
+	</div>
 </div>
