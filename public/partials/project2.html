@@ -3,7 +3,7 @@
 	<hr class='star-primary'>
 	<div class='picture_carousel center-block'>
 		<uib-carousel active='active' interval='interval'>
-			<uib-slide ng-repeat='image in images'>
+			<uib-slide ng-repeat='image in images' index='index'>
 				<img ng-src='/static/{{image}}'>
 			</uib-slide>
 		</uib-carousel>

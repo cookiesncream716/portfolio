@@ -3,8 +3,8 @@
 	<hr class='star-primary'>
 	<div class='picture_carousel center-block'>
 		<uib-carousel active='active' interval='interval'>
-			<uib-slide ng-repeat='slide in slides'>
-				<img ng-source='{{slide.image}}'>
+			<uib-slide ng-repeat='image in images'>
+				<img ng-source='{{image}}'>
 			</uib-slide>
 		</uib-carousel>
 	</div>
@@ -16,5 +16,8 @@
 			<li><a href='https://github.com/cookiesncream716/my_recipes' target='_blank'>github.com/cookiesncream716/my_recipes</a></li>
 			<li><a href='http://54.187.195.251/' target='_blank'>Deployed Site</a></li>
 		</ul>
+	</div>
+	<div ng-repeat = 'image in images' class="pic">
+	<img src='/static/{{image}}'>
 	</div>
 </div>
