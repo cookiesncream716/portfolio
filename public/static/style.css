@@ -2,9 +2,6 @@ body{
 	/*font-family: Futura;*/
 	font-family: Arial;
 }
-/*.container {
-
-}*/
 .navbar {
 	/*background-color: #942b42;*/
 	/*background-color: #523a76;*/
@@ -103,10 +100,14 @@ hr.star-primary {
 	color: white;
 	text-align: center;
 	height: 500px;
-	padding-top: 100px;
+	/*padding-top: 100px;*/
 }
 #about h4 {
 	font-size: 20px;
+}
+button {
+	color: white;
+	background-color: #5b99ff
 }
 .project_page {
 	height: 500px;
