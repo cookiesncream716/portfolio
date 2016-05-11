@@ -68,10 +68,11 @@ hr.star-primary {
 }
 
 .project {
-	padding-top: 50px;
+	padding-top: 40px;
 	height: 400px;
 	text-align: center;
 	border: 20px solid white;
+	color: white;
 }
 #project1 {
 	background-color: #ff7a4b;
@@ -110,20 +111,21 @@ button {
 	background-color: #5b99ff
 }
 .project_page {
-	height: 500px;
+	padding-top: 30px;
+	min-height: 400px;
 	text-align: center;
 }
 h1 {
 	font-weight: bold;
 }
 .picture_carousel {
-	width: 50%;
-	height: 400px;
-	border: 3px solid red;
+	width: 75%;
+	height: 600px;
+	/*border: 3px solid red;*/
 }
 .project_description {
 	width: 50%;
-	border: 3px solid blue;
+	/*border: 3px solid blue;*/
 }
 .project_description ul li {
 	/*text-decoration: none;*/

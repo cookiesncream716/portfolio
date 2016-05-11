@@ -1,10 +1,10 @@
 <div ng-controller='project2Controller' class='project_page'>
-	<h1>HUNGRY BELLY</h1>
-	<hr class='star-primary'>
+	<!-- <h1>HUNGRY BELLY</h1> -->
+	<!-- <hr class='star-primary'> -->
 	<div class='picture_carousel center-block'>
-		<uib-carousel active='active' interval='interval'>
-			<uib-slide ng-repeat='image in images' index='index'>
-				<img ng-src='/static/{{image}}'>
+		<uib-carousel active='active' interval='myInterval' no-wrap='noWrapSlides'>
+			<uib-slide ng-repeat='slide in slides track by slide.id' index='slide.id'>
+				<img ng-src='{{slide.image}}'>
 			</uib-slide>
 		</uib-carousel>
 	</div>
@@ -16,11 +16,5 @@
 			<li><a href='http://www.github.com/mml1/hungrybelly' target='_blank'>github.com/mml1/hungrybelly</a></li>
 			<li><a href='http://54.186.90.201:81/' target='_blank'>Deployed Site</a></li>
 		</ul>
-	</div>
-	<div ng-repeat = 'image in images'>
-		<p>{{image}}</p>
-	</div>
-	<div ng-repeat = 'image in images' class="pic">
-	<img src='/static/{{image}}'>
 	</div>
 </div>

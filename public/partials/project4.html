@@ -1,10 +1,10 @@
 <div ng-controller='project4Controller' class='project_page'>
-	<h1>Discussion Board</h1>
-	<hr class='star-primary'>
+	<!-- <h1>Discussion Board</h1> -->
+	<!-- <hr class='star-primary'> -->
 	<div class='picture_carousel center-block'>
-		<uib-carousel active='active' interval='interval'>
-			<uib-slide ng-repeat='slide in slides'>
-				<img ng-source='{{slide.image}}'>
+		<uib-carousel active='active' interval='myInterval' no-wrap='noWrapSlides'>
+			<uib-slide ng-repeat='slide in slides track by slide.id' index='slide.id'>
+				<img ng-src='{{slide.image}}'>
 			</uib-slide>
 		</uib-carousel>
 	</div>
