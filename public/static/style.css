@@ -43,6 +43,9 @@ body{
 .navbar-brand{
 	color: #e84467
 }
+#flower {
+	width:20%;
+}
 h3 {
 	font-size: 30px;
 }
