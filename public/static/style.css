@@ -109,6 +109,9 @@ hr.star-primary {
 #about h4 {
 	font-size: 20px;
 }
+#contact{
+	height: 700px;
+}
 button {
 	color: white;
 	background-color: #5b99ff
