@@ -112,6 +112,9 @@ hr.star-primary {
 #contact{
 	height: 700px;
 }
+.resume_icon, .linkedin_icon{
+	height: 75px;
+}
 button {
 	color: white;
 	background-color: #5b99ff
