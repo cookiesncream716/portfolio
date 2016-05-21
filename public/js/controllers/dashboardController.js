@@ -6,7 +6,6 @@ portfolio.controller('dashboardController', function($scope, $http){
 		$http.post('/contact_form', data).
 			success(function(data, status, headers, config){
 				$scope.alerts = [{type: 'success', msg: 'Thanks for your message ' + data.name}];
-				// $scope.message = 'Thanks for you message ' + data.name;
 				console.log($scope.alerts)
 				$scope.contactMe = [];
 			}).
