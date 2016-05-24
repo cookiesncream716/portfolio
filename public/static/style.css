@@ -33,7 +33,7 @@ body{
 	background: #5b99ff;
 	color: white;
 	text-align: center;
-	height: 725px;
+	height: 750px;
 	padding-top: 200px;
 }
 #top_jumbo h1 {
@@ -124,17 +124,19 @@ button {
 	min-height: 400px;
 	text-align: center;
 }
+.project_page a {
+	text-align: right;
+	text-decoration: none;
+}
 h1 {
 	font-weight: bold;
 }
 .picture_carousel {
-	width: 75%;
-	height: 600px;
-	/*border: 3px solid red;*/
+	width: 60%;
+	min-height: 500px;
 }
 .project_description {
 	width: 50%;
-	/*border: 3px solid blue;*/
 }
 .project_description ul li {
 	/*text-decoration: none;*/
