@@ -11,6 +11,6 @@ require('./app/config/routes.js')(app);
 
 app.use(express.static(path.join(__dirname, './public')));
 
-app.listen(8000, function(){
-	console.log('Listening for portfolio on 8000');
+app.listen(6789, function(){
+	console.log('Listening for portfolio on 6789');
 });

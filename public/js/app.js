@@ -1,4 +1,4 @@
-var portfolio = angular.module('portfolio', [
+ var portfolio = angular.module('portfolio', [
 	'ngRoute',
 	'ui.bootstrap',
 	'duScroll'
